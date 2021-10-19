@@ -84,20 +84,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("amelia AI Already Activated In This Chat")
+            await lel.edit("Jasmine AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"amelia AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"Jasmine AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("amelia AI Was Not Activated In This Chat")
+            await lel.edit("Jasmine AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"amelia AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Jasmine AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -126,8 +126,8 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("amelia", "Aco")
-        test = test.replace("amelia", "Aco")
+        test = test.replace("jasmine", "Aco")
+        test = test.replace("jasmine", "Aco")
         querystring = {
             "bid": "178",
             "key": "sX5A2PcYZbsN5EY6",
@@ -142,7 +142,7 @@ async def hmm(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "amelia")
+        result = result.replace("Aco", "jasmine")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         pro = result
@@ -188,8 +188,8 @@ async def hmm(client, message):
         # test = emoji.demojize(test.strip())
 
         # Kang with the credits bitches @InukaASiTH
-        test = test.replace("amelia", "Aco")
-        test = test.replace("amelia", "Aco")
+        test = test.replace("jasmine", "Aco")
+        test = test.replace("jasmine", "Aco")
         querystring = {
             "bid": "178",
             "key": "sX5A2PcYZbsN5EY6",
@@ -204,7 +204,7 @@ async def hmm(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "amelia")
+        result = result.replace("Aco", "jasmine")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         pro = result
@@ -258,8 +258,8 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("amelia", "Aco")
-    test = test.replace("amelia", "Aco")
+    test = test.replace("jasmine", "Aco")
+    test = test.replace("jasmine", "Aco")
     querystring = {
         "bid": "178",
         "key": "sX5A2PcYZbsN5EY6",
@@ -274,7 +274,7 @@ async def inuka(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "amelia")
+    result = result.replace("Aco", "jasmine")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     pro = result
@@ -288,7 +288,7 @@ async def inuka(client, message):
 
 
 @Amelia.on_message(
-    filters.regex("amelia|Amelia|warlegend|hello|hi")
+    filters.regex("jasmine|Jasmine|jass|hello|hi")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -335,8 +335,8 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("amelia", "Aco")
-    test = test.replace("amelia", "Aco")
+    test = test.replace("jasmine", "Aco")
+    test = test.replace("jasmine", "Aco")
     querystring = {
         "bid": "178",
         "key": "sX5A2PcYZbsN5EY6",
@@ -351,7 +351,7 @@ async def inuka(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "amelia")
+    result = result.replace("Aco", "jasmine")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     pro = result
