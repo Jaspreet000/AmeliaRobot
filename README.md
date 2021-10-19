@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/329647a798cccb101aecf.jpg">
+  <img src="https://telegra.ph/file/4e1639dfaa11ce940bf86.jpg">
 </p>
 
-# Amelia Group BoT
+# Jasmine Group BoT
 
 ### Telegram Group
 <p align="left">
